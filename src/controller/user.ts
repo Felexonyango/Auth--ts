@@ -55,7 +55,7 @@ export const register = async (req: Request, res: Response) => {
     });
 
     await user.save();
-    console.log(user);
+
 
     res.status(201).json({ success: true, user: {
         email: user.email,
