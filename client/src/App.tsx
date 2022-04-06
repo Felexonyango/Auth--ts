@@ -1,16 +1,13 @@
-import React from 'react';
-import Signup from './components/Auth/Signup'
-import './App.css';
-
-const  App:React.FC = ()=> {
-return (
+import React from 'react'
+import UserJson from './components/UserJson'
+import "./App.css"
+const App = () => {
+  return (
   <div className="App">
-<Signup/>
 
+<UserJson/>
   </div>
-)
-
-  
+  )
 }
 
-export default App;
+export default App
