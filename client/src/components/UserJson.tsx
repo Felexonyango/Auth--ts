@@ -1,7 +1,7 @@
 import React from 'react'
 import {useGetUserQuery} from '../features/auth/userApi'
 const UserJson = () => {
-    const {data,isError,isFetching,isLoading,isSuccess} = useGetUserQuery()
+    const {data,isError,isLoading,isSuccess} = useGetUserQuery()
   return (
     <div>
 {isLoading  && <div>isLoading.... </div>}
